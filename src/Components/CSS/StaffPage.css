@@ -1,0 +1,124 @@
+/* Container for the staff page */
+.staff-page {
+    padding: 20px;
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Button styles */
+  button {
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    background-color: #3498db;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #2980b9;
+  }
+  
+  /* Form styles */
+  .add-form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    padding: 20px;
+    margin: 20px 0;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+  }
+  
+  .add-form input,
+  .add-form select {
+    flex: 1 1 45%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  .add-form input[type="file"] {
+    flex: 1 1 100%;
+  }
+  
+  .add-form button {
+    flex: 1 1 100%;
+    background-color: #2ecc71;
+  }
+  
+  .add-form button:hover {
+    background-color: #27ae60;
+  }
+  
+  /* Table styles */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: #ffffff;
+  }
+  
+  table th,
+  table td {
+    padding: 15px;
+    border: 1px solid #ccc;
+    text-align: left;
+  }
+  
+  table th {
+    background-color: #3498db;
+    color: white;
+  }
+  
+  table tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  table img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 5px;
+  }
+  
+  /* Sort controls */
+  .sort-controls {
+    margin: 20px 0;
+  }
+  
+  .sort-dropdown {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 200px;
+  }
+  
+  /* Checkbox styles */
+  input[type="checkbox"] {
+    transform: scale(1.5);
+    margin-right: 10px;
+  }
+  
+  /* Responsive design */
+  @media (max-width: 768px) {
+    .add-form {
+      flex-direction: column;
+    }
+  
+    .add-form input,
+    .add-form select {
+      flex: 1 1 100%;
+    }
+  
+    table th,
+    table td {
+      padding: 10px;
+    }
+  }
+  

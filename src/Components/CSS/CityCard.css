@@ -1,0 +1,81 @@
+/* CityCard.css */
+
+.city-card {
+  background-color: #ffffff;
+  border-radius: 15px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  margin: 20px;
+  max-width: 400px;
+}
+
+.city-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.city-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.city-card:hover .city-image {
+  transform: scale(1.05);
+}
+
+.city-details {
+  padding: 20px;
+}
+
+.city-name {
+  font-size: 1.8rem;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.city-country {
+  font-size: 1.2rem;
+  color: #777;
+  margin-bottom: 10px;
+}
+
+.city-population {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 15px;
+}
+
+.city-description {
+  font-size: 1rem;
+  color: #666;
+  margin-bottom: 20px;
+  line-height: 1.6;
+}
+
+.city-map {
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Responsive design for mobile devices */
+@media (max-width: 768px) {
+  .city-card {
+      max-width: 100%;
+  }
+
+  .city-image {
+      height: 150px;
+  }
+
+  .city-name {
+      font-size: 1.5rem;
+  }
+
+  .city-country, .city-population, .city-description {
+      font-size: 0.9rem;
+  }
+}

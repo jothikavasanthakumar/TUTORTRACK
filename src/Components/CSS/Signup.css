@@ -1,0 +1,108 @@
+/* Signup.css */
+
+.signup-bg {
+  margin-bottom: 0%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 160vh;
+  /* background-color: #0fd0fb; */
+  /* background: url("D:\sdp\khome\src\Assets\log3.png"); */
+  background-image: url("https://blog.tutorspot.co.uk/wp-content/uploads/2023/05/Online-Tutor-47.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+}
+
+.signup-container {
+  /* margin-top: 10%; */
+  margin-left: 40%;
+  /* background-color:rgba(64, 121, 182, 0.447); */
+  backdrop-filter: blur(10px);
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  width: 90%;
+  height:800px;
+  margin-bottom: 0%;
+}
+
+.signup-heading {
+  margin-bottom: 15px;
+  color: #0b0606;
+  text-align: center;
+}
+
+
+.signup-form .form-group {
+  
+  margin-bottom: 15px;
+  margin-left: 19px;
+}
+
+
+
+.signup-form label {
+  display: block;
+  margin-bottom: 5px;
+  color:#0b0707;
+}
+
+.signup-form input {
+  width: calc(100% - 50px);
+  padding: 10px;
+  border: 1px solid #f1eeee;
+  border-radius: 5px;
+}
+
+.password-container {
+  position: relative;
+}
+
+.toggle-password {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #4a4a4a;
+}
+
+.toggle-password:hover,
+.toggle-password:focus {
+    background-color:#6098d7; /* Keep background transparent on hover/focus */
+    border:#000000; /* Ensure no border on hover/focus */
+    color: #38393a; /* Optional: Slightly darker text color on hover/focus */
+    margin-right: 0.5px;
+}
+
+.signup-button {
+  width: 100%;
+  padding: 10px;
+  background-color: #004969;
+  border: none;
+  border-radius: 5px;
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.signup-button:hover {
+  background-color: #d7a360;
+  border:#000000;
+}
+
+.error {
+  color: red;
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+.form-group{
+  padding: 20%;
+  
+}

@@ -1,0 +1,97 @@
+/* TopCities.css */
+
+/* Main container for the top cities section */
+.top-cities {
+  padding: 30px;
+  background: linear-gradient(135deg, #07aaf0, hsl(210, 29%, 97%));
+  color: #fff;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+  margin: 20px;
+}
+
+/* Title styling */
+.title {
+  font-size: 42px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 25px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+/* Container for the list of city cards */
+.city-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 25px;
+  margin-top: 20px;
+}
+
+/* Footer styling */
+.footer {
+  margin-top: 50px;
+}
+
+/* Top Cities Description container */
+.top-cities-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 20px;
+  background-color: #0056b3;
+  color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Content container */
+.top-cities-content-container h2 {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+.top-cities-content-container p {
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 30px;
+  text-align: justify;
+  color: #e0f7ff;
+}
+
+/* Top Cities Image */
+.top-cities-image-container {
+  margin-bottom: 20px;
+}
+
+.top-cities-image {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .top-cities {
+      padding: 20px;
+  }
+
+  .title {
+      font-size: 28px;
+  }
+
+  .top-cities-content-container h2 {
+      font-size: 26px;
+  }
+
+  .top-cities-content-container p {
+      font-size: 16px;
+  }
+}

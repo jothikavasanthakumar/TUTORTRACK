@@ -1,0 +1,72 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Help Center container */
+  .help-center {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 20px;
+    text-align: center;
+    background-color: #f9f9f9;
+  }
+  
+  /* Navigation links */
+  .links {
+    margin-bottom: 20px;
+  }
+  
+  .link {
+    color: #007bff;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 1rem;
+  }
+  
+  .link:hover {
+    text-decoration: underline;
+  }
+  
+  /* Page title */
+  .page-title {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  /* Description text */
+  .description {
+    font-size: 1.2rem;
+    color: #555;
+    margin-bottom: 40px;
+  }
+  
+  /* Cards container */
+  .cards-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+  }
+  
+  /* CardComponent styling */
+  .card {
+    width: 280px; /* Adjusted to fit in the layout */
+  }
+  
+  /* Responsive design */
+  @media (max-width: 768px) {
+    .cards-container {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .card {
+      width: 90%;
+    }
+  }
+  

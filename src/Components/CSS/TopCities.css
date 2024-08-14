@@ -1,0 +1,30 @@
+/* TopCities.css */
+
+/* Main container for the top cities section */
+.top-cities {
+    padding: 20px;
+    background-color: #f9f9f9;
+    text-align: center;
+  }
+  
+  /* Title styling */
+  .title {
+    font-size: 36px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  /* Container for the list of city cards */
+  .city-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  /* Footer styling */
+  .footer {
+    margin-top: 40px;
+  }
+  

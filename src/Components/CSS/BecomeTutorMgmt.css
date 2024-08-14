@@ -1,0 +1,117 @@
+/* BecomeTutorMgmt.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .become-tutor-management {
+    width: 80%;
+    margin: 20px auto;
+    background: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  
+  h2 {
+    text-align: center;
+    color: #333;
+  }
+  
+  /* Filter controls */
+  .filter-controls-become {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 20px;
+  }
+  
+  .sort-dropdown-become {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  /* Table styles */
+  .data-table-become {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .data-table-become th,
+  .data-table-become td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .data-table-become th {
+    background-color: #f2f2f2;
+  }
+  
+  .data-table-become tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .data-table-become tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  /* Button styles */
+  button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px 5px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  /* Action button styles */
+  .action-button-become.confirm-button-tut {
+    background-color: #2ecc71;
+  }
+  
+  .action-button-become.decline-button-tut {
+    background-color: #e74c3c;
+  }
+  
+  .action-button-become.confirm-button-tut:hover,
+  .action-button-become.decline-button-tut:hover {
+    opacity: 0.8;
+  }
+  
+  /* Delete button styles */
+  .delete-button-become {
+    background-color: #e74c3c;
+  }
+  
+  .delete-button-become:hover {
+    background-color: #c0392b;
+  }
+  
+  /* Column styles */
+  .actions-column {
+    text-align: center;
+  }
+  
+  .delete-column {
+    text-align: center;
+  }
+  
+  /* Image styles */
+  .tutor-image-become {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  

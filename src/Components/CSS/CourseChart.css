@@ -1,0 +1,21 @@
+/* AdminDashboard.css */
+
+/* Container for the pie chart */
+.chart-container {
+    width: 100%;
+    max-width: 600px; /* Adjust the max-width as needed */
+    margin: 0 auto; /* Center the chart horizontally */
+    padding: 20px; /* Add some padding around the chart */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+    border-radius: 8px; /* Rounded corners */
+    background-color: #ffffff; /* White background for contrast */
+  }
+  
+  /* Title styling (if needed) */
+  .chart-title {
+    font-size: 1.5rem; /* Adjust font size as needed */
+    margin-bottom: 10px; /* Space between title and chart */
+    text-align: center; /* Center the title */
+    color: #333; /* Dark grey color for text */
+  }
+  

@@ -1,0 +1,95 @@
+/* Main container for the BecomeTutor page */
+.become-tutor-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #f4f4f4;
+    min-height: 100vh;
+    background: url("C:\Users\LENOVO\Downloads\khome\khome\src\Assets\image copy 2.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+  }
+  
+  /* Hero section */
+  .hero-right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 0;
+  }
+  
+  .hero-right img {
+    width: 100%;
+    max-width: 600px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease;
+  }
+  
+  .hero-right img:hover {
+    transform: scale(1.05);
+  }
+  
+  .hero-right-c {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-top: 20px;
+  }
+  
+  /* Controls container (commented out in the component) */
+  .controls-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 0;
+  }
+  
+  .controls-container .MuiFormControl-root {
+    margin-bottom: 20px;
+  }
+  
+  /* Feature section */
+  .feature-section {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Footer styling */
+  .footer {
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+    bottom: 0;
+  }
+  
+  @media (max-width: 768px) {
+    .become-tutor-container {
+      padding: 10px;
+    }
+  
+    .hero-right img {
+      max-width: 100%;
+    }
+  
+    .hero-right-c {
+      font-size: 20px;
+    }
+  
+    .controls-container {
+      width: 100%;
+    }
+  }
+  
